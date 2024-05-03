@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+A {
+  text-decoration: none;
+  color: navy;
+}
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 25px 50px;
+}
+#ul-1 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-between;
+}
+.absolute {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: hotpink;
+  width: 200px;
+  left: -1rem;
+}
+.sub-menu {
+  padding: 0 15px 0 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 16px;
+  border-radius: 0.5rem;
+}
+.block {
+  display: block;
+}
